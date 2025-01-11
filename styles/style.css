@@ -144,6 +144,11 @@ button {
     position: relative;
 }
 
+.nav__list_link a:hover {
+    color: #41a28e;
+    transition: .3s;
+}
+
 .nav__list_link:hover .dropdown {
     transform: translateY(0);
     opacity: 1;
@@ -562,6 +567,11 @@ button {
     display: flex;
     align-items: center;
     gap: 10px;
+    transition: .3s;
+}
+
+.footer__item_list_link:hover {
+    color: #41a28e;
 }
 
 .solial-item {
@@ -618,6 +628,7 @@ button {
     justify-content: space-between;
 }
 
-.footer__item_payments a:hover {
-    transform: scale(1.1);
+.footer__item_payments-a:hover {
+    transform: translateY(-5px);
+    transition: .5s;
 }
