@@ -18,6 +18,10 @@
     padding: 0 15px;
 }
 
+button {
+    cursor: pointer;
+}
+
 :root {
     --font-family: "Playfair Display", sans-serif;
     --second-family: "Roboto", sans-serif;
@@ -525,6 +529,8 @@
     line-height: 14px;
 }
 
+/* footer */
+
 .footer {
     padding: 36px 0;
     background-color: black;
@@ -585,7 +591,6 @@
 .footer__item button {
     padding: 0 10px;
     background: #41a28e;
-    /*  */
     color: rgb(255, 255, 255);
     font-family: 'Roboto';
     font-size: 16px;
@@ -610,5 +615,9 @@
 .footer__item_payments {
     display: flex;
     gap: 25px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+}
+
+.footer__item_payments a:hover {
+    transform: scale(1.1);
 }
